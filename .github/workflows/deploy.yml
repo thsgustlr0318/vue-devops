@@ -35,7 +35,7 @@ jobs:
         run: yarn install
 
       - name: Build page
-        run: yarn buld
+        run: yarn build
         env:
           NODE_ENV: production
 
